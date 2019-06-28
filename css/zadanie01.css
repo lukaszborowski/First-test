@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', Arial, sans-serif;;
+}
+
+.menu {
+    width: 800px;
+
+
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 5px 10px 5px 10px ;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #B01E57;
+}

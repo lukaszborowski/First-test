@@ -28,3 +28,28 @@ body {
     color: #b3b3b3;
 }
 
+.active-news p,
+.active-news h2 {
+    color: #1db954;
+
+}
+
+.news {
+    position: relative;
+    margin: 25px 0 25px 0;
+}
+
+
+.news:nth-child(4) {
+    text-decoration: line-through;
+}
+
+.news:before {
+    content: '';
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    top: -50px;
+}
