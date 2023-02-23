@@ -9,15 +9,12 @@ html {
 
 .menu {
     width: 800px;
-
-
 }
 
 .menu ul {
     list-style-type: none;
     display: flex;
 }
-
 .menu li {
     margin: 5px 10px 5px 10px ;
 }
